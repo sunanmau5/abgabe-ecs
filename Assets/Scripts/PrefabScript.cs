@@ -26,7 +26,7 @@ public class PrefabScript : MonoBehaviour
         if (count != amount)
         {
             // Set the vector 3 position
-            Vector3 spawnPos = new Vector3(spawnPosX, 0.0f, spawnPosZ);
+            Vector3 spawnPos = new Vector3(spawnPosX, 0.5f, spawnPosZ);
 
             // Instantiate copies of Prefab each with different rotations
             Instantiate(myPrefab, spawnPos, Quaternion.Euler(0, Random.Range(0, 180), 0));
