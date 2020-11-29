@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 1330367198560489241}
   - component: {fileID: 1330367198560489239}
   m_Layer: 0
-  m_Name: Ball
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -703,8 +703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71599b6223a1a4d769d689b6d188d62c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 0
-  _rotationAngle: 0
+  speed: 5
+  rotationAngle: 0
+  player: {fileID: 1330367198560489238}
 --- !u!114 &1330367198560489240
 MonoBehaviour:
   m_ObjectHideFlags: 0

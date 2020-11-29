@@ -4,9 +4,8 @@ using UnityEngine;
 using Unity.Entities;
 
 [GenerateAuthoringComponent]
-public struct PlayerComponent : IComponentData
+public struct SpawnCollectableComponent : IComponentData
 {
-    public float speed;
-    public float rotationAngle;
-    public Entity player;
+    public int amount;
+    public Entity prefab;
 }
