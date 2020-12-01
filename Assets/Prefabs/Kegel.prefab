@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7666591310461474264}
   - component: {fileID: 6661603811204462255}
   - component: {fileID: 6294756468989185124}
+  - component: {fileID: -3964468373208428979}
   m_Layer: 0
   m_Name: Kegel
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &-3964468373208428979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3964054809151370836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0d58006f4ed4ff0a229ae0daa374d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCollected: 1
+  radiansPerSecond: 90
