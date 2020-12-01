@@ -1,3 +1,3 @@
-# abgabe-01
+# Abgabe ECS (Entity Component System)
 
-Das ist die erste Abgabe der Übung EMM
+Abgabe 4 von Entwicklung Multimedia
